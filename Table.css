@@ -1,0 +1,23 @@
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 500px;
+}
+.table td{
+    border-width: 10px;
+    border-style: double;
+    border-color:white;
+    padding:10px;
+}
+.table .invis{
+    /*width:80%;*/
+    border-width: 0px;
+    vertical-align: top;
+}
+.table .mark{
+    background-color: white;
+}
+.table .mark .a{
+    color:black;
+}

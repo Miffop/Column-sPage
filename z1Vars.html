@@ -27,10 +27,10 @@
                     <td class="invis" width="20%">
                         <table class="table">
                             <tr>
-                                <td class="mark" align="center"><h4 class="h"><a class="a" href="Doc.html">Overview</a><h4></td>
+                                <td align="center"><h4 class="h"><a class="a" href="Doc.html">Overview</a><h4></td>
                             </tr>
                             <tr class="p">
-                                <td><a class="a" href="z1Vars.html">Variables</a></td>
+                                <td class="mark"><a class="a" href="z1Vars.html">Variables</a></td>
                             </tr>
                             <tr class="p">
                                 <td><a class="a" href="z2Opers.html">Operators</a></td>
@@ -47,15 +47,37 @@
                         </table>
                     </td>
                     <td class="invis">
-                        <h2 class="h">This is Documentation of the language</h2>
+                        <h2 class="h">Variables</h2>
                         <hr/>
-                        <ul class="p">
-                            <li><a class="a" href="z1Vars.html">Variables</a></li><br/>
-                            <li><a class="a" href="z2Opers.html">Operators</a></li><br/>
-                            <li><a class="a" href="z3ifs.html">Conditions</a></li><br/>
-                            <li><a class="a" href="z4loops.html">Loops</a></li><br/>
-                            <li><a class="a" href="z5meth.html">Methods</a></li><br/>
-                        </ul>
+                        <p class="p">
+                            Every variable name in Column starts with '#' :<br/>
+                            #MyVariable<br/>
+                        </p>
+                        <p class="p">
+                            Variable can have sub variables :<br/>
+                            #MyVariable|SubVariable<br/>
+                        </p>
+                        <p class="p">
+                            To Assign variable some value use '::' :<br/>
+                            #MyVariable::10;<br/>
+                            #MyVariable|SubVariable::"Hello, Column!";<br/>
+                        </p>
+                        <p class="p">
+                            To Get Pointer to the variable use ':' :<br/>
+                            :#MyVariable;
+                        </p>
+                        <p class="p">
+                            You can also store variable pointer in variable :<br/>
+                            #OtherVariable:: :#MyVariable;<br/>
+                        </p>
+                        <p class="p">
+                            To get value of the pointer use '=' :<br/>
+                            #OtherVariable:: =MyVariable;<br/>
+                        </p>
+                        <p class="p">
+                            Moreover you can make variable act as a variable in pointer :<br/>
+                            :OtherVariable :: :MyVariable;
+                        </p>
                     </td>
                 </tr>
             </table>

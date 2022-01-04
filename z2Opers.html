@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Documentation</title>
+        <link rel="stylesheet" href="TopStyle.css">
+        <link rel="stylesheet" href="MainStyle.css">
+        <link rel="stylesheet" href="Table.css">
+    </head>
+    <body>
+        <!--Top-->
+        <a href="index.html"><img src="Z/HighColumn.png" id="Logo"/></a>
+        <span id="LogoName">Column</span>
+        <div id="MarkTable">
+            <table>
+                <tr>
+                    <td><a href="index.html">Main</a></td>
+                    <td id="MainSelect"><a href="Doc.html">Documentation</a></td>
+                    <td><a href="Info.html">Info</a></td>
+                </tr>
+            </table>
+        </div>
+        <!--Info-->
+        <div id="Container">
+            <br/>
+            <table class="table">
+                <tr>
+                    <td class="invis" width="20%">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><h4 class="h"><a class="a" href="Doc.html">Overview</a><h4></td>
+                            </tr>
+                            <tr class="p">
+                                <td><a class="a" href="z1Vars.html">Variables</a></td>
+                            </tr>
+                            <tr class="p">
+                                <td class="mark"><a class="a" href="z2Opers.html">Operators</a></td>
+                            </tr>
+                            <tr class="p">
+                                <td><a class="a" href="z3ifs.html">Conditions</a></td>
+                            </tr>
+                            <tr class="p">
+                                <td><a class="a" href="z4loops.html">Loops</a></td>
+                            </tr>
+                            <tr class="p">
+                                <td><a class="a" href="z5meth.html">Methods</a></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="invis">
+                        <h2 class="h">Operators</h2>
+                        <hr/>
+                        <ul class="p">
+                            <li>+ add (if you add string and int, int will be tread as char)</li>
+                            <li>- subract</li>
+                            <li>* multiply</li>
+                            <li>/ divide</li>
+                            <li>% module</li>
+                            <li>_ negate (you CAN do like this: #a::-1, but better use this #a::_1)</li>
+                            <li>** power</li>
+                            <li>== equal</li>
+                            <li>!= not equal</li>
+                            <li>&gt; greater</li>
+                            <li>&lt; less</li>
+                            <li>&gt;= greater or equal</li>
+                            <li>&lt;= less or equal</li>
+                            <li>&lt;&lt; shl</li>
+                            <li>&gt;&gt; shr</li>
+                            <li>& bitwise and</li>
+                            <li>. bitwise or</li>
+                            <li>^ bitwise xor</li>
+                            <li>~ bitwise not</li>
+                            <li>&& logic and</li>
+                            <li>.. logic or</li>
+                            <li>^^ logic xor</li>
+                            <li>~~ logic not</li>
+                            <li>= get value</li>
+                            <li>pointer has subVariableName (if pointer contains this subvariable returns 1 else 0)</li>
+                            <li>pointer sub subVariableName (returns subvariable of the pointer(if subvariable doesn't exists it creates one))</li>
+                        </ul>
+                        <h2 class="h">Operators order</h2>
+                        <hr/>
+                        <ol class="p">
+                            <li>()</li>
+                            <li>~,~~,_,=</li>
+                            <li>**</li>
+                            <li>*,/,%</li>
+                            <li>+,-</li>
+                            <li>&lt;&lt;,&gt;&gt;</li>
+                            <li>&lt,&lt=,&gt;,&gt;=</li>
+                            <li>==,!=</li>
+                            <li>&</li>
+                            <li>^</li>
+                            <li>.</li>
+                            <li>&&</li>
+                            <li>^^</li>
+                            <li>..</li>
+                            <li>has,sub</li>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
