@@ -50,32 +50,40 @@
                         <h2 class="h">Variables</h2>
                         <hr/>
                         <p class="p">
-                            Every variable name in Column starts with '#' :<br/>
-                            #MyVariable<br/>
+                            Every variable name in Column starts with '#'<br/>
                         </p>
+                        <p class="code">#MyVariable<br/></p>
                         <p class="p">
-                            Variable can have sub variables :<br/>
-                            #MyVariable|SubVariable<br/>
+                            Variable can have sub variables<br/>
                         </p>
+                        <p class="code">#MyVariable|SubVariable<br/></p>
                         <p class="p">
-                            To Assign variable some value use '::' :<br/>
+                            To Assign variable some value use '::'<br/>
+                        </p>
+                        <p class="code">
                             #MyVariable::10;<br/>
                             #MyVariable|SubVariable::"Hello, Column!";<br/>
                         </p>
                         <p class="p">
-                            To Get Pointer to the variable use ':' :<br/>
-                            :#MyVariable;
+                            To Get Pointer to the variable use ':'<br/>
+                        </p>
+                        <p class="code">:MyVariable;</p>
+                        <p class="p">
+                            You can also store variable pointer in variable<br/>
+                        </p>
+                        <p class="code">
+                            #OtherVariable:: :MyVariable;<br/>
                         </p>
                         <p class="p">
-                            You can also store variable pointer in variable :<br/>
-                            #OtherVariable:: :#MyVariable;<br/>
+                            To get value of the pointer use '='<br/>
                         </p>
-                        <p class="p">
-                            To get value of the pointer use '=' :<br/>
+                        <p class="code">
                             #OtherVariable:: =MyVariable;<br/>
                         </p>
                         <p class="p">
                             Moreover you can make variable act as a variable in pointer :<br/>
+                        </p>
+                        <p class="code">
                             :OtherVariable :: :MyVariable;
                         </p>
                     </td>

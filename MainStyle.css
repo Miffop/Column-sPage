@@ -38,4 +38,15 @@ ul{
     color:#F5F5F5;
     text-decoration: none;
 }
+.code{
+    color:black;
+    background-color:whitesmoke;
+    font-weight: normal;
+    font-style:normal;
+    font-variant: normal;
+    text-align: left;
+    font-size: 20px;
+    text-indent: 0px;
+    padding: 10px;
+}
 /*Tables*/
