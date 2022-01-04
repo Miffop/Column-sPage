@@ -9,9 +9,9 @@ body{
 #LogoName
 {
     font-size: 100px;
-    font-family: Console;
-    font-weight: bold;
-    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:lighter;
+    font-style:normal;
     font-variant: small-caps;
     text-decoration: none;
     color: white;
@@ -27,6 +27,14 @@ body{
     width: 100%;
 }
 #MarkTable td{
+    /*рамка*/
+    border-style:double;
+    border-width: 10px;
+    border-color: white;
+    padding: 10px;
+    width: 33%;
+}
+#MarkTable td a{
     /*шрифт*/
     color:white;
     font-size: 40px;
@@ -34,9 +42,11 @@ body{
     font-weight: 100;
     vertical-align: middle;
     text-align:center;
-    /*рамка*/
-    border-style:double;
-    border-width: 10px;
-    border-color: white;
-    width: 33%;
+    text-decoration: none;
+}
+#MarkTable #MainSelect a{
+    color:black;
+}
+#MarkTable #MainSelect{
+    background-color: #FFFFFF;
 }
