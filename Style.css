@@ -1,0 +1,42 @@
+body{
+    background-color: #0F0F0F;
+}
+#Logo{
+    padding-top: 10px;
+    border-image-width: 100px;
+    vertical-align: middle;
+}
+#LogoName
+{
+    font-size: 100px;
+    font-family: Console;
+    font-weight: bold;
+    font-style: oblique;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+#MarkTable
+{
+    text-align: center;
+}
+#MarkTable table{
+    border-collapse: collapse;
+    width: 100%;
+}
+#MarkTable td{
+    /*шрифт*/
+    color:white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    vertical-align: middle;
+    text-align:center;
+    /*рамка*/
+    border-style:double;
+    border-width: 10px;
+    border-color: white;
+    width: 33%;
+}
